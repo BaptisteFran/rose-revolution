@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rose Revolution — ROSE Online, rebuilt in Unity</title>
+  <title>Rose Revolution - ROSE Online, rebuilt in Unity</title>
   <meta name="description" content="Rose Revolution is a fan project recreating ROSE Online in Unity. Find the repositories, tools, roadmap and dev blog here.">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,7 +46,7 @@
 
     <section class="section" id="links">
       <div class="container">
-        <h2>Links ofRose Revolution</h2>
+        <h2>Links of Rose Revolution</h2>
         <div class="card-grid">
           <a class="card" href="https://github.com/Akrelia/Rose-Revolution-Server/tree/master" target="_blank" rel="noopener">
             <h3>Server repository</h3></h3>
@@ -55,7 +55,7 @@
           </a>
           <a class="card" href="https://github.com/Akrelia/RoseRevolution/" target="_blank" rel="noopener">
             <h3>Client repository</h3></h3>
-            <p>The Unity client project — prefabs, ScriptableObjects and internal DB.</p>
+            <p>The Unity client project - prefabs, ScriptableObjects and internal DB.</p>
             <span class="card-source">GitHub</span>
           </a>
           <a class="card" href="https://github.com/users/Akrelia/projects/1/views/1?sliceBy%5Bvalue%5D=Akrelia%2FRoseRevolution" target="_blank" rel="noopener">
@@ -101,16 +101,16 @@
         <h2>Gallery</h2>
        </h2> <div class="gallery-grid">
           <figure class="gallery-item">
-            <img src="assets/images/image.png" alt="Rose Revolution in-game — player with Santa outfit facing monsters" loading="lazy">
-            <figcaption>In-game — Alpha version</figcaption>
+            <img src="assets/images/image.png" alt="Rose Revolution in-game - player with Santa outfit facing monsters" loading="lazy">
+            <figcaption>In-game - Alpha version</figcaption>
           </figure>
           <figure class="gallery-item">
-            <img src="assets/images/Unity_uK82EhlpH2.png" alt="Rose Revolution in-game — snowy village with Santa NPC" loading="lazy">
-            <figcaption>Snowy village — Alpha version</figcaption>
+            <img src="assets/images/Unity_uK82EhlpH2.png" alt="Rose Revolution in-game - snowy village with Santa NPC" loading="lazy">
+            <figcaption>Snowy village - Alpha version</figcaption>
           </figure>
           <figure class="gallery-item">
-            <img src="assets/images/Qzf0X0O.png" alt="Unity editor — Grunter King NPC data inspector" loading="lazy">
-            <figcaption>Unity editor</figcaption> — NPC data</figcaption>
+            <img src="assets/images/Qzf0X0O.png" alt="Unity editor - Grunter King NPC data inspector" loading="lazy">
+            <figcaption>Unity editor - NPC data</figcaption>
           </figure>
           <figure class="gallery-item">
             <img src="assets/images/5mxEEMJ.png" alt="Rose Revolution project architecture diagram" loading="lazy">
@@ -122,7 +122,7 @@
 
     <section class="section" id="guide">
       <div class="container">
-        <h2>Guide — How to add a Packet</h2>
+        <h2>Guide - How to add a Packet</h2>
        <p class="guide-intro">
          In Rose Revolution, we use our own packet architecture, but it is quite simple actually.
          In this example, I'll show how to create a new packet that will be sent by the client,
@@ -195,7 +195,7 @@
                 }
          </code></pre>
          <p>
-           Now that we created the packet, we have to create the Packet Action — don't worry,
+           Now that we created the packet, we have to create the Packet Action - don't worry,
            it's very simple. In the <code>[Server]PacketHandler</code> class we add this method:
          </p>
          <pre><code>[PacketCommand(ClientCommands.SendNewCommand)]
@@ -219,7 +219,7 @@
        <div class="guide-step">
          <h3><span class="step-number">4</span> Create the Packet Action and the Packet Event in the client</h3>
          <p>
-           Head back to Unity — now we want to handle the server response. BUT this time, the packet
+           Head back to Unity - now we want to handle the server response. BUT this time, the packet
            action is optional. We could add one in the <code>PacketHandler</code> class</code> just like the server
            one, but in this case we don't need to. Instead we want to trigger something in Unity,
            that's why we need a <strong>Packet Event</strong>.</strong>
@@ -236,7 +236,7 @@
          <div>
            <p>Wait a minute, that's it? Only that, anywhere?</p>
            <p>
-             Yes, anywhere you want! Most stuff happens in the background — just make sure you add
+             Yes, anywhere you want! Most stuff happens in the background - just make sure you add
              the attribute and respect the method structure, and voilà!
            </p>
          </div>
@@ -248,8 +248,8 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Copyright © Rose Revolution Team 2025 — All rights reserved.</p>
-      <p class="disclaimer">Fan project — not affiliated with Gravity Interactive or the original ROSE Online developers.</p>
+      <p>Copyright © Rose Revolution Team 2025 - All rights reserved.</p>
+      <p class="disclaimer">Fan project - not affiliated with Gravity Interactive or the original ROSE Online developers.</p>
     </div>
   </footer>
 
